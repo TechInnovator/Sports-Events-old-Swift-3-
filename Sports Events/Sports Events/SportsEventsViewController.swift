@@ -21,6 +21,8 @@ class SportsEventsViewController: UIViewController, UITableViewDelegate, UITable
         
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
+        
+        self.title = "Sports Events"
 
         // Do any additional setup after loading the view.
     }
